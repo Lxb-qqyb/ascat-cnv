@@ -18,16 +18,16 @@ Options
 ### HaHa,this pipiline just for me.
 ### Ofcourse,Other users can use scripts in bin step by step.
 
-**Stage 0: **
+** Stage 0: **
 ```
 alleleCounter -l bed/Select.1000g.snp.bed -b path/to/your/bamfile -o filename.alleleCounter.txt
 ```
-**Stage 1: **
+** Stage 1: **
 ```
 perl prepare_ascat_input_after_alleleCounter.pl tumor1.alleleCounter.txt,tumor2.alleleCounter.txt normal1.alleleCounter.txt,normal2.alleleCounter.txt path/of/your/outdir
 ```
 ### Tumor_BAF.txt,Tumor_LogR.txt,Germline_BAF.txt,Germline_LogR.txt gernerated this step ###
-**Stage 2: **
+** Stage 2: **
 ```
 Rscript asmultipcf.R path/of/your/outdir(same with stage1)#simplest form to run ASCAT, with matched normal data available, without GC wave correction and all samples female:
 or 
@@ -35,7 +35,7 @@ Rscript aspcf.R path/of/your/outdir(same with stage1)#run ASCAT with multi-sampl
 
 ```
 
-**Stage 3: **
+** Stage 3: **
 ```
 perl add_nummark.pl segment.txt ploidy.txt Tumor_BAF.txt path/of/your/outdir(same with stage1)
 ```
