@@ -1,3 +1,4 @@
+#!/usr/bin/perl -w
 use strict;
 my ($segfile,$ploidyfile,$baffile,$outdir) = @ARGV;
 my %hash;
