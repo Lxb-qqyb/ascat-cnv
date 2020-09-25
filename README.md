@@ -1,7 +1,7 @@
 # Ascat-cnv
 
 ## Introduction
-Prepare ASCAT input files from alleleCount on WES data and run ascat
+Prepare ASCAT input files from bam files on WES data and run ascat to get final results.
 ## Useage
 ```
 Description     
