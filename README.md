@@ -15,8 +15,8 @@ Options
 	-node <s>: nodes used
         -h|?|help : Show this help
 ```
-### HaHa,this pipiline just for me.
-### Ofcourse,Other users can use scripts in bin step by step.
+### This pipiline just for me.
+### Other users can use scripts in bin step by step.
 
 ** Stage 0: **
 ```
