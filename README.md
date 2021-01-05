@@ -8,7 +8,7 @@ Description
 Options
         -dir <s>: dir of bam files
 	-outdir <s>: pathway of outdir
-	-info <s>: pair information of tumor-normal, for example "normal tumor patiant",first cloumn is normal,second column is tumor,third column is patient
+	-info <s>: pair information of tumor-normal, for example "tumor normal patiant",first cloumn is tumor,second column is normal,third column is patient
 	-alleleCounter <s>: path of alleleCounter
 	-multi: run ASCAT with multi-sample segmentation (when shared breakpoints are expected)
 	-cpu <i>: cpu used
